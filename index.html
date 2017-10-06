@@ -7,20 +7,27 @@
     
     <meta name="description" content="In this lab, I'm going to demonstrate how to create a fixed navigation, single page site with smooth scrolling, and highlighting the navigation link depending on which section is currently being viewed. This technique is great for single page sites that want to pack in lots of goodies on one page, but use a navigation with cool scrolling to section it off." />
     
-    <link href='//fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/style.css" />
+    
     
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src='js/jquery.scrollto.js'></script>
 	
+ <img src="img/high.jpg"/>
 	
-    <img src="img/high.jpg" alt="logo" height="42px" width="142px"/>
+    
 </head>
+
+
 
 <body>
 
+
 <div id="wrapper">
+
+
 
 <div id="main">
     <div class="container clearfix">
@@ -29,23 +36,23 @@
             <div id="nav-anchor"></div>
             <nav>
                 <ul>					
-					<li><button class='btn' onclick="window.location='#pixels';"><img src="img/pix.jpg" alt="logo1" />Pixels</a></button></li>
-					<li><button class='btn' onclick="window.location='#break';"><img src="img/bre.png" alt="logo1" />Breaking News</a></button></li>
-					<li><button class='btn' onclick="window.location='#trend';"><img src="img/tre.jpg" alt="logo1" />Trending</a></button></li>
-                    <li><button class='btn' onclick="window.location='#world';"><img src="img/glob1.jpg" alt="logo1" />World</a></button></li>
-                    <li><button class='btn' onclick="window.location='#us';"><img src="img/us.png" alt="logo1" />US</a></button></li>
-                    <li><button class='btn' onclick="window.location='#business';"><img src="img/bus.jpg" alt="logo1" />Business</a></button></li>
-                    <li><button class='btn' onclick="window.location='#tech';"><img src="img/tec.jpg" alt="logo1" />Tech</a></button></li>
-					<li><button class='btn' onclick="window.location='#games';"><img src="img/gam.png" alt="logo1" />Games</a></button></li>
-					<li><button class='btn' onclick="window.location='#science';"><img src="img/sci.png" alt="logo1" />Science</a></button></li>
-                    <li><button class='btn' onclick="window.location='#sports';"><img src="img/spo.jpg" alt="logo1" />Sports</a></button></li>
-                    <li><button class='btn' onclick="window.location='#entertainment';"><img src="img/ent.jpg" alt="logo1" />Entertainment</a></button></li>
-                    <li><button class='btn' onclick="window.location='#travel';"><img src="img/trav.jpg" alt="logo1" />Travel</a></button></li>
-					<li><button class='btn' onclick="window.location='#gold';"><img src="img/gold.png" alt="logo1" />Gold Price</a></button></li>
-					<li><button class='btn' onclick="window.location='#silver';"><img src="img/silver.jpg" alt="logo1" />Silver Price</a></button></li>
-					<li><button class='btn' onclick="window.location='#curency';"><img src="img/cur.png" alt="logo1" />Curency Converter</a></button></li>
-					<li><button class='btn' onclick="window.location='final.html';"><img src="img/ear.png" alt="logo1" />Earthquake</a></button></li>
-					<li><button class='btn' onclick="window.location='casualties.html';"><img src="img/nat.png" alt="logo1" />Natural Disaster</a></button></li>
+					<li><button class='btn' onclick="window.location='#pixels';"><img src="img/pix.jpg" alt="logo1" height="18px" width="18px"/>Pixels</a></button></li>
+					<li><button class='btn' onclick="window.location='#break';"><img src="img/bre.png" alt="logo1" height="17px" width="17px"/>Breaking News</a></button></li>
+					<li><button class='btn' onclick="window.location='#trend';"><img src="img/tre.jpg" alt="logo1" height="20px" width="20px"/>Trending</a></button></li>
+                    <li><button class='btn' onclick="window.location='#world';"><img src="img/glob1.jpg" alt="logo1" height="20px" width="20px"/>World</a></button></li>
+                    <li><button class='btn' onclick="window.location='#us';"><img src="img/us.png" alt="logo1" height="20px" width="20px" />US</a></button></li>
+                    <li><button class='btn' onclick="window.location='#business';"><img src="img/bus.jpg" alt="logo1" height="20px" width="20px" />Business</a></button></li>
+                    <li><button class='btn' onclick="window.location='#tech';"><img src="img/tec.jpg" alt="logo1" height="20px" width="20px"/>Tech</a></button></li>
+					<li><button class='btn' onclick="window.location='#games';"><img src="img/gam.png" alt="logo1" height="20px" width="20px"/>Games</a></button></li>
+					<li><button class='btn' onclick="window.location='#science';"><img src="img/sci.png" alt="logo1" height="20px" width="20px"/>Science</a></button></li>
+                    <li><button class='btn' onclick="window.location='#sports';"><img src="img/spo.jpg" alt="logo1" height="20px" width="20px"/>Sports</a></button></li>
+                    <li><button class='btn' onclick="window.location='#entertainment';"><img src="img/ent.jpg" alt="logo1" height="20px" width="20px"/>Entertainment</a></button></li>
+                    <li><button class='btn' onclick="window.location='#travel';"><img src="img/trav.jpg" alt="logo1" height="20px" width="20px"/>Travel</a></button></li>
+					<li><button class='btn' onclick="window.location='#gold';"><img src="img/gold.png" alt="logo1" height="20px" width="20px"/>Gold Price</a></button></li>
+					<li><button class='btn' onclick="window.location='#silver';"><img src="img/silver.jpg" alt="logo1" height="20px" width="20px"/>Silver Price</a></button></li>
+					<li><button class='btn' onclick="window.location='#curency';"><img src="img/cur.png" alt="logo1" height="20px" width="20px" />Curency Converter</a></button></li>
+					<li><button class='btn' onclick="window.location='final.html';"><img src="img/ear.png" alt="logo1" height="20px" width="20px"/>Earthquake</a></button></li>
+					<li><button class='btn' onclick="window.location='casualties.html';"><img src="img/nat.png" alt="logo1" height="20px" width="20px" />Natural Disaster</a></button></li>
 
 					<div id="weather">
 					<iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=3&tempunit=FAHRENHEIT&windunit=MILE_PER_HOUR&precipunit=INCH&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windgust=0&winddirection=0&uv=0&uv=1&humidity=0&precipitation=0&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups" style="width: 162px;height: 288px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div>
