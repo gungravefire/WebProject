@@ -1,0 +1,100 @@
+/* =The style for the lab
+-------------------------------------------------------------- */
+#sidebar {
+    width:100px;
+    float:left;
+}
+
+#content {
+    width:700px;
+    float:right;
+}
+
+
+/* navigation */
+nav {
+    width:200px;
+    background-color:rgb(240,240,240);
+    border:solid 1px rgb(220,220,220);
+    padding:0 12px;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:12px;
+}
+
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+	
+
+}
+
+nav li a {
+    color:rgb(50,50,50);
+    font-weight:700;
+	text-align: center;
+	background-color:white;
+
+}
+
+
+.btn {
+    width: 170px;
+    height:auto;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+	padding: 0px;
+
+}
+
+.btn:hover {
+    background-color: #F7F7F7;
+}
+
+.btn img {
+    float: left;
+}
+
+
+a.nav-active {
+    color:#ccc;
+}
+
+
+
+hr {
+    border:none;
+    background-color:rgb(220,220,220);
+    height:12px;
+    margin-bottom:18px;
+}
+
+#weather {
+	padding-top: 5px;
+}
+
+img{
+	top:10px;
+	width:20px;
+	height:20px:
+}
+
+
